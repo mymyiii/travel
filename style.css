@@ -107,7 +107,7 @@
     grid-template-rows:1fr auto;
     background:
       linear-gradient(120deg, rgba(11,36,71,.25), rgba(11,36,71,.78)),
-      url("wave.svg") center/cover no-repeat;
+      url("/image/wave.svg") center/cover no-repeat;
   }
   .coverFrame {
     margin:34px;
