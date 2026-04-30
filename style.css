@@ -212,6 +212,54 @@
     line-height:1.9;
     margin:0 0 24px;
   }
+  .goal-card{
+    background:linear-gradient(135deg,#ff8a3d,#ffb15e);
+    border-radius:28px;
+    padding:22px;
+    color:white;
+    box-shadow:0 16px 32px rgba(255,138,61,.22);
+  }
+  
+  .goal-card h3{
+    margin:0 0 16px;
+    font-size:15px;
+    letter-spacing:.08em;
+  }
+  
+  .goal-list{
+    display:grid;
+    gap:10px;
+  }
+  
+  .goal-item{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding:13px 14px;
+    border-radius:18px;
+    background:rgba(255,255,255,.18);
+    backdrop-filter:blur(8px);
+  }
+  
+  .goal-item span{
+    width:34px;
+    height:34px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:white;
+    color:#ff8a3d;
+    font-size:12px;
+    font-weight:800;
+  }
+  
+  .goal-item p{
+    margin:0;
+    font-size:18px;
+    font-weight:800;
+    line-height:1.4;
+  }
   .grid2 {
     display:grid;
     grid-template-columns:1.05fr .95fr;
