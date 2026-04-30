@@ -222,7 +222,7 @@
   
   .goal-card h3{
     margin:0 0 16px;
-    font-size:15px;
+    font-size:16px;
     letter-spacing:.08em;
   }
   
@@ -286,6 +286,7 @@
     background:var(--navy);
     color:white;
     border:0;
+    margin-top: 16px;
   }
   .card h3 {
     margin:0 0 12px;
