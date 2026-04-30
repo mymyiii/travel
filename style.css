@@ -714,7 +714,12 @@
     }
     .time{
       font-size:10px;
-      padding:6px 7px;
+      /* padding:6px 7px; */
+      display: flex;
+      width: 58px;
+      height:32px;
+      align-items: center;
+      justify-content: center;
     }
     .planText{
       font-size:13px;
