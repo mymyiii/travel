@@ -374,7 +374,8 @@
   }
   .thumb {
     width:168px;
-    height:158px;
+    height: auto;
+    aspect-ratio: 1 / 1;
     object-fit:cover;
     border-radius:22px;
   }
@@ -539,7 +540,7 @@
     .coverCopy h2 { font-size:36px; }
     .coverMeta,.grid2,.grid3,.conditions,.checkGrid { grid-template-columns:1fr; }
     .spot { grid-template-columns:108px 1fr; gap:12px; padding:10px; }
-    .thumb { width:108px; height:150px; }
+    .thumb { width:108px; height:108px; }
     .spot h3 { font-size:18px; }
     .info { grid-template-columns:1fr; }
   }
@@ -721,7 +722,7 @@
     }
     .thumb{
       width:92px;
-      height:132px;
+      height:auto;
       border-radius:18px;
     }
     .spotBody{
@@ -821,7 +822,7 @@
     }
     .thumb{
       width:82px;
-      height:126px;
+      height: auto;
     }
     .spot h3{
       font-size:16px;
